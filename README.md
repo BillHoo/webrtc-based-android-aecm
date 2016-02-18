@@ -1,3 +1,7 @@
+DEPRECATED
+=========================
+  Attention please, this project was deleted by myself about 2 years ago, but there's still some forked version, to avoid misleading someoneelse, I forked back and mark it as DEPRECATED. 
+
 webrtc-based-android-aecm
 =========================
 
