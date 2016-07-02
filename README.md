@@ -1,6 +1,15 @@
 DEPRECATED
 =========================
-  Attention please, this project was deleted by myself about 2 years ago, but there's still some forked version, to avoid misleading someoneelse, I forked back and mark it as DEPRECATED. 
+  ATTENTION PLEASE, this project was deleted by myself about several years ago, but there's still some forked version, to avoid misleading someoneelse, I forked back and mark it as DEPRECATED. 
+  
+  Standalone module like AECM in my project is not recommended any more, for VoIP app on Android, I suggest you to use the whole WebRTC project(including VoiceEngine/VideoEngine/Codecs/P2P and so on), don't use low-level standalone modules(AECM/NS/VAD/AGC) like I did before, cus' low-level modules need you to configure all the parameters by yourself, its a nightmare, and WebRTC VoE(VoiceEngine) already incorporated them all together and worked well.
+  
+  If you could not use VoE directly by some reason(like you wanna use your own codecs or transport layer), you could implements the interface of VoE with your own things, or you can use the APM(AudioProcessingModule), its a sub system of VoE and only deal with audio stuffs.
+
+
+
+
+
 
 webrtc-based-android-aecm
 =========================
